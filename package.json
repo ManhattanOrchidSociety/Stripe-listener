@@ -1,0 +1,21 @@
+{
+  "name": "stripe-salesforce-nsps-integration",
+  "version": "1.0.0",
+  "description": "Stripe Payment Link → Salesforce NSPS integration via Vercel serverless functions",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "stripe": "^14.21.0",
+    "jsforce": "^1.11.1",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "vercel": "^37.0.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
