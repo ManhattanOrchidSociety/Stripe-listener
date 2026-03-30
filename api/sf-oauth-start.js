@@ -1,7 +1,7 @@
 "use strict";
 
 export default function handler(req, res) {
-  const loginUrl = process.env.SF_LOGIN_URL || "https://login.salesforce.com";
+  const loginUrl = process.env.SF_LOGIN_URL || "https://test.salesforce.com";
 
   const redirectUri = `${process.env.APP_URL}/api/sf-oauth-callback`;
   console.log("[OAuth] Using redirect URI:", redirectUri);
